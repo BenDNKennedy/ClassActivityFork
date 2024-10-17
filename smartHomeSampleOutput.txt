@@ -1,0 +1,28 @@
+ben@DESKTOP-B3K2HJV:/mnt/f/ece356/Act3/ClassActivityFork$ ./smartHome
+
+
+Arm the security system? (1 for on, 0 for off): 0
+
+Enter main door status (1 for open, 0 for closed): 1
+Enter back door status (1 for open, 0 for closed): 1
+
+
+Arm the security system? (1 for on, 0 for off): 1
+
+Enter main door status (1 for open, 0 for closed): 1
+Enter back door status (1 for open, 0 for closed): 1
+Parent process (main door): ALARM
+Child process (main door): NOTIFICATION
+Parent process (back door): ALARM
+Child process (back door): NOTIFICATION
+
+
+Arm the security system? (1 for on, 0 for off): 1
+
+Enter main door status (1 for open, 0 for closed): 1
+Enter back door status (1 for open, 0 for closed): 0
+Parent process (main door): ALARM
+Child process (main door): NOTIFICATION
+
+
+Arm the security system? (1 for on, 0 for off):

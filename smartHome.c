@@ -6,6 +6,11 @@
 void SecuritySystemTrigger(const char *doorName) {
     pid_t pid = fork(); // Fork for the notification
     
+    if (pid < 0) {
+        fprintf(stderr, "Fork failed.\n");
+        return 1;
+    } 
+
     if (pid == 0) {
         printf("Child process (%s): NOTIFICATION\n", doorName);
         exit(0);

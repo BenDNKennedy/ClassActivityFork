@@ -1,0 +1,7 @@
+ben@DESKTOP-B3K2HJV:/mnt/f/ece356/Act3/ClassActivityFork$ ./robotics
+Starting the robotics system.
+Parent process: Waiting for image processing to complete...
+Child process: Performing image processing for object recognition.
+Child process: Image processing completed.
+Parent process: Image processing complete. Proceeding with the next action.
+ben@DESKTOP-B3K2HJV:/mnt/f/ece356/Act3/ClassActivityFork$
